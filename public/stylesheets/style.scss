@@ -1,23 +1,27 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: darkgrey; }
-  body a {
-    color: #00B9FF; }
-  body .wrapper {
+  background-color: darkgrey;
+  a {
+    color: #00B9FF;
+  }
+  .wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: auto;
     margin-top: 80px;
     border: 2px solid #dfdfdf;
-    border-radius: 10px; }
-    body .wrapper form {
+    border-radius: 10px;
+    form {
       padding: 75px 75px;
       display: flex;
       flex-direction: column;
-      width: 386px; }
-    body .wrapper input {
-      padding: 10px 10px; }
+      width: 386px;
+    }
+    input {
+      padding: 10px 10px;
+    }
+  }
 
-/*# sourceMappingURL=style.css.map */
+}

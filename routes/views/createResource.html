@@ -1,0 +1,21 @@
+<html>
+<head>
+  <link  rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Resources creating tool</title>
+</head>
+<body>
+  <div class="wrapper">
+    <form action="/resources" method="POST">
+      <input type="text" required autofocus placeholder="Enter id" name="id" title="Please type id as a number.">
+      <input type="text" required placeholder="Enter title" name="title" title="Please type title as a text.">
+      <input type="url" required placeholder="Enter source" name="source" title="Please type source of an image file.">
+      <input type="text" required placeholder="Enter price" name="price" title="Please type price as a number.">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
